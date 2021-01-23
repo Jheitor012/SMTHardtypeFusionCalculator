@@ -1,5 +1,737 @@
 [
 	{
-		"name": ""
+		"race": "Foul",
+		"name": "Will o' Wisp"
+	},
+	{
+		"race": "Fairy",
+		"name": "Pixie"
+	},
+	{
+		"race": "Jirae",
+		"name": "Kodama"
+	},
+	{
+		"race": "Haunt",
+		"name": "Preta"
+	},
+	{
+		"race": "Brute",
+		"name": "Shikigami"
+	},
+	{
+		"race": "Jirae",
+		"name": "Hua Po"
+	},
+	{
+		"race": "Foul",
+		"name": "Slime"
+	},
+	{
+		"race": "Wilder",
+		"name": "Zhen"
+	},
+	{
+		"race": "Element",
+		"name": "Erthys"
+	},
+	{
+		"race": "Foul",
+		"name": "Mou-Ryo"
+	},
+	{
+		"race": "Femme",
+		"name": "Datsue-Ba"
+	},
+	{
+		"race": "Fairy",
+		"name": "Jack Frost"
+	},
+	{
+		"race": "Night",
+		"name": "Lilim"
+	},
+	{
+		"race": "Yoma",
+		"name": "Apsaras"
+	},
+	{
+		"race": "Fairy",
+		"name": "High Pixie"
+	},
+	{
+		"race": "Element",
+		"name": "Aeros"
+	},
+	{
+		"race": "Haunt",
+		"name": "Choronzon"
+	},
+	{
+		"race": "Divine",
+		"name": "Angel"
+	},
+	{
+		"race": "Jirae",
+		"name": "Sudama"
+	},
+	{
+		"race": "Beast",
+		"name": "Inugami"
+	},
+	{
+		"race": "Holy",
+		"name": "Shiisaa"
+	},
+	{
+		"race": "Snake",
+		"name": "Nozuchi"
+	},
+	{
+		"race": "Yoma",
+		"name": "Isora"
+	},
+	{
+		"race": "Element",
+		"name": "Aquans"
+	},
+	{
+		"race": "Wilder",
+		"name": "Bicorn"
+	},
+	{
+		"race": "Foul",
+		"name": "Blob"
+	},
+	{
+		"race": "Haunt",
+		"name": "Yaka"
+	},
+	{
+		"race": "Kishin",
+		"name": "Minakata"
+	},
+	{
+		"race": "Night",
+		"name": "Fomor"
+	},
+	{
+		"race": "Beast",
+		"name": "Nekomata"
+	},
+	{
+		"race": "Divine",
+		"name": "Archangel"
+	},
+	{
+		"race": "Megami",
+		"name": "Uzume"
+	},
+	{
+		"race": "Fairy",
+		"name": "Pyro Jack"
+	},
+	{
+		"race": "Yoma",
+		"name": "Koppa"
+	},
+	{
+		"race": "Element",
+		"name": "Flaemis"
+	},
+	{
+		"race": "Haunt",
+		"name": "Chatterskill"
+	},
+	{
+		"race": "Femme",
+		"name": "Taraka"
+	},
+	{
+		"race": "Brute",
+		"name": "Momunofu"
+	},
+	{
+		"race":"Fallen",
+		"name": "Forneus"
+	},
+	{
+		"race": "Holy",
+		"name": "Unicorn"
+	},
+	{
+		"race": "Avatar",
+		"name": "Makami"
+	},
+	{
+		"race": "Beast",
+		"name": "Badb Catha"
+	},
+	{
+		"race": "Yoma",
+		"name": "Dis"
+	},
+	{
+		"race": "Dragon",
+		"name": "Gui Xian"
+	},
+	{
+		"race": "Lady",
+		"name": "Kikuri-Hime"
+	},
+	{
+		"race": "Mitama",
+		"name": "Ara Mitama"
+	},
+	{
+		"race": "Wilder",
+		"name": "Raiju"
+	},
+	{
+		"race": "Night",
+		"name": "Incubus"
+	},
+	{
+		"race": "Brute",
+		"name": "Oni"
+	},
+	{
+		"race": "Avatar",
+		"name": "Cai-Zhi"
+	},
+	{
+		"race": "Fairy",
+		"name": "Kelpie"
+	},
+	{
+		"race": "Holy",
+		"name": "Senri"
+	},
+	{
+		"race": "Kishin",
+		"name": "Zouchou"
+	},
+	{
+		"race": "Foul",
+		"name": "Black Ooze"
+	},
+	{
+		"race": "Haunt",
+		"name": "Pisaca"
+	},
+	{
+		"race": "Snake",
+		"name": "Naga"
+	},
+	{
+		"race": "Divine",
+		"name": "Principality"
+	},
+	{
+		"race": "Yoma",
+		"name": "Karasu"
+	},
+	{
+		"race": "Mitama",
+		"name": "Nigi Mitama"
+	},
+	{
+		"race":"Fallen",
+		"name": "Eligor"
+	},
+	{
+		"race": "Fiend",
+		"name": "Matador"
+	},
+	{
+		"race": "Vile",
+		"name": "Arahabaki"
+	},
+	{
+		"race": "Megami",
+		"name": "Sarasvati"
+	},
+	{
+		"race": "Wilder",
+		"name": "Nue"
+	},
+	{
+		"race": "Mitama",
+		"name": "Kusi Mitama"
+	},
+	{
+		"race": "Femme",
+		"name": "Shikome"
+	},
+	{
+		"race": "WarGod",
+		"name": "Valkyrie"
+	},
+	{
+		"race": "Vile",
+		"name": "Baphomet"
+	},
+	{
+		"race": "Divine",
+		"name": "Power"
+	},
+	{
+		"race": "Kishin",
+		"name": "Koumoku"
+	},
+	{
+		"race": "Beast",
+		"name": "Orthrus"
+	},
+	{
+		"name": "Mizuchi"
+	},
+	{
+		"race": "Mitama",
+		"name": "Saki Mitama"
+	},
+	{
+		"race": "Jirae",
+		"name": "Sarutahiko"
+	},
+	{
+		"race": "Holy",
+		"name": "Feng Huang"
+	},
+	{
+		"race": "Fiend",
+		"name": "Daisoujou"
+	},
+	{
+		"race": "Night",
+		"name": "Succubus"
+	},
+	{
+		"race": "Snake",
+		"name": "Raja Naga"
+	},
+	{
+		"race":"Fallen",
+		"name": "Berith"
+	},
+	{
+		"race": "Yoma",
+		"name": "Onkot"
+	},
+	{
+		"race": "Genma",
+		"name": "Kurama"
+	},
+	{
+		"race": "Fairy",
+		"name": "Troll"
+	},
+	{
+		"race": "Deity",
+		"name": "Horus"
+	},
+	{
+		"race": "Kishin",
+		"name": "Okuninushi"
+	},
+	{
+		"race": "Divine",
+		"name": "Virtue"
+	},
+	{
+		"race": "Lady",
+		"name": "Kushinada"
+	},
+	{
+		"race": "Fiend",
+		"name": "Hell Biker"
+	},
+	{
+		"race": "Foul",
+		"name": "Phantom"
+	},
+	{
+		"race": "Wilder",
+		"name": "Mothman"
+	},
+	{
+		"race": "Femme",
+		"name": "Yaksini"
+	},
+	{
+		"race": "Fairy",
+		"name": "Setanta"
+	},
+	{
+		"race": "Holy",
+		"name": "Baihu"
+	},
+	{
+		"race": "Dragon",
+		"name": "Long"
+	},
+	{
+		"race": "Brute",
+		"name": "Ikusa"
+	},
+	{
+		"race": "Yoma",
+		"name": "Jinn"
+	},
+	{
+		"race": "Fury",
+		"name": "Dionysus"
+	},
+	{
+		"race": "Foul",
+		"name": "Sakahagi"
+	},
+	{
+		"race": "Vile",
+		"name": "Pazuzu"
+	},
+	{
+		"race":"Fallen",
+		"name": "Ose"
+	},
+	{
+		"race": "Kishin",
+		"name": "Mikazuchi"
+	},
+	{
+		"race": "Avatar",
+		"name": "Yatagarasu"
+	},
+	{
+		"race": "Genma",
+		"name": "Hanuman"
+	},
+	{
+		"race": "Fairy",
+		"name": "Oberon"
+	},
+	{
+		"race": "Night",
+		"name": "Kaiwan"
+	},
+	{
+		"race": "Deity",
+		"name": "Atavaka"
+	},
+	{
+		"race": "Yoma",
+		"name": "Purski"
+	},
+	{
+		"race": "Megami",
+		"name": "Sati"
+	},
+	{
+		"race": "Haunt",
+		"name": "Legion"
+	},
+	{
+		"race": "Jirae",
+		"name": "Titan"
+	},
+	{
+		"race": "Divine",
+		"name": "Dominion"
+	},
+	{
+		"race": "Fiend",
+		"name": "White Rider"
+	},
+	{
+		"race": "Genma",
+		"name": "Cu Chulainn"
+	},
+	{
+		"race": "Foul",
+		"name": "Shadow"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Loki"
+	},
+	{
+		"race": "Femme",
+		"name": "Dakini"
+	},
+	{
+		"race": "Yoma",
+		"name": "Efreet"
+	},
+	{
+		"race": "Kishin",
+		"name": "Jikoku"
+	},
+	{
+		"race": "Night",
+		"name": "Loa"
+	},
+	{
+		"race": "Brute",
+		"name": "Shiki-Ouji"
+	},
+	{
+		"race": "Beast",
+		"name": "Sparna"
+	},
+	{
+		"race": "Fury",
+		"name": "Wu Kong"
+	},
+	{
+		"race": "Megami",
+		"name": "Lakshmi"
+	},
+	{
+		"race": "Fiend",
+		"name": "Red Rider"
+	},
+	{
+		"race": "Jirae",
+		"name": "Gogmagog"
+	},
+	{
+		"race": "Snake",
+		"name": "Quetzalcoatl"
+	},
+	{
+		"race": "Holy",
+		"name": "Chimera"
+	},
+	{
+		"race": "Night",
+		"name": "Queen Mab"
+	},
+	{
+		"race": "Deity",
+		"name": "Amaterasu"
+	},
+	{
+		"race": "Fairy",
+		"name": "Titania"
+	},
+	{
+		"race": "Lady",
+		"name": "Parvati"
+	},
+	{
+		"race": "WarGod",
+		"name": "Ganesha"
+	},
+	{
+		"race": "Vile",
+		"name": "Girimehkala"
+	},
+	{
+		"race": "Femme",
+		"name": "Clotho"
+	},
+	{
+		"race":"Fallen",
+		"name": "Decarabia"
+	},
+	{
+		"race": "Brute",
+		"name": "Kin-Ki"
+	},
+	{
+		"race": "Avatar",
+		"name": "Barong"
+	},
+	{
+		"race": "Fiend",
+		"name": "Black Rider"
+	},
+	{
+		"race": "Beast",
+		"name": "Cerberus"
+	},
+	{
+		"race": "Fury",
+		"name": "Beiji-Weng"
+	},
+	{
+		"race": "Brute",
+		"name": "Sui-Ki"
+	},
+	{
+		"race": "Fiend",
+		"name": "Pale Rider"
+	},
+	{
+		"race": "Raptor",
+		"name": "Gurr"
+	},
+	{
+		"race": "Avian",
+		"name": "Garuda"
+	},
+	{
+		"race": "Haunt",
+		"name": "Rakshasa"
+	},
+	{
+		"race": "Femme",
+		"name": "Lachesis"
+	},
+	{
+		"race": "Kishin",
+		"name": "Futomimi"
+	},
+	{
+		"race": "Entity",
+		"name": "Albion"
+	},
+	{
+		"race": "Divine",
+		"name": "Throne"
+	},
+	{
+		"race": "Megami",
+		"name": "Scathach"
+	},
+	{
+		"race": "Vile",
+		"name": "Tao Tie"
+	},
+	{
+		"race": "Deity",
+		"name": "Odin"
+	},
+	{
+		"race": "Night",
+		"name": "Black Frost"
+	},
+	{
+		"race": "Brute",
+		"name": "Fuu-Ki"
+	},
+	{
+		"race": "Snake",
+		"name": "Yurlungur"
+	},
+	{
+		"race": "Femme",
+		"name": "Atropos"
+	},
+	{
+		"race": "Lady",
+		"name": "Kali"
+	},
+	{
+		"race":"Fallen",
+		"name": "Flauros"
+	},
+	{
+		"race": "Fiend",
+		"name": "The Harlot"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Abaddon"
+	},
+	{
+		"race": "Night",
+		"name": "Nyx"
+	},
+	{
+		"race": "Femme",
+		"name": "Rangda"
+	},
+	{
+		"race": "Kishin",
+		"name": "Bishamon"
+	},
+	{
+		"race": "Seraph",
+		"name": "Uriel"
+	},
+	{
+		"race": "Vile",
+		"name": "Samael"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Surt"
+	},
+	{
+		"race": "Lady",
+		"name": "Skadi"
+	},
+	{
+		"race": "Wilder",
+		"name": "Hresvelgr"
+	},
+	{
+		"race": "Kishin",
+		"name": "Thor"
+	},
+	{
+		"race": "Fiend",
+		"name": "Trumpeter"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Aciel"
+	},
+	{
+		"race": "Deity",
+		"name": "Mithra"
+	},
+	{
+		"race": "Summoner",
+		"name": "Raidou Kuzunoha the XIV"
+	},
+	{
+		"race": "Fiend",
+		"name": "Dante"
+	},
+	{
+		"race": "Night",
+		"name": "Lilith"
+	},
+	{
+		"race": "Brute",
+		"name": "Ongyo-Ki"
+	},
+	{
+		"race": "Vile",
+		"name": "Mada"
+	},
+	{
+		"race": "Seraph",
+		"name": "Raphael"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Beelzebub"
+	},
+	{
+		"race": "Seraph",
+		"name": "Gabriel"
+	},
+	{
+		"race": "Seraph",
+		"name": "Michael"
+	},
+	{
+		"race": "Tyrant",
+		"name": "Mot"
+	},
+	{
+		"race": "Deity",
+		"name": "Vishnu"
+	},
+	{
+		"race": "Seraph",
+		"name": "Metatron"
+	},
+	{
+		"race": "Fury",
+		"name": "Shiva"
 	}
 ]
