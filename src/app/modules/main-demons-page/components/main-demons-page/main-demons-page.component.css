@@ -1,0 +1,45 @@
+@font-face {
+  font-family: birch;
+  src: url("../../../../../assets/fonts/birch-std.otf");
+}
+
+.wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.background-img img {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  filter: blur(5px);
+  opacity: 0.8;
+  z-index: -1;
+  user-select: none;
+}
+
+br {
+  user-select: none;
+}
+
+.main-logo img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  user-select: none;
+}
+
+.main-logo h1 {
+  font-family: birch !important;
+  color: black;
+  font-size: 100px;
+  text-shadow: -0.3px 0.5px #91ffff;
+  font-style: oblique;
+  text-align: center !important;
+  user-select: none;
+}
+
+table {
+  width: 100%;
+}

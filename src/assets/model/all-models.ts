@@ -1,6 +1,6 @@
 export class DemonsModel {
   race: string;
-  lvl: number;
+  // lvl: number;
   name: string;
   // baseHP: number;
   // baseMP: number;

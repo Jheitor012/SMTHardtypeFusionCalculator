@@ -1,3 +1,29 @@
-<p>
-  main-demons-page works!
-</p>
+<div class="wrapper">
+  <div class="main-logo">
+    <img src="../../../../../assets/img/smt3logo.png">
+    <br>
+    <h1>HARDTYPE FUSION CALCULATOR</h1>
+  </div>
+  <div class="background-img">
+    <img src="../../../../../assets/img/jakyo_yakata.png">
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <table mat-table [dataSource]="demonsArray">
+      <ng-container matColumnDef="race">
+        <th mat-header-cell *matHeaderCellDef>Race</th>
+        <td mat-cell *matCellDef="let demonsArray">{{demonsArray.race}}</td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let demonsArray">{{demonsArray.name}}</td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="columnsToDisplay; sticky: true"></tr>
+      <tr mat-row *matRowDef="let demonsArray; columns: columnsToDisplay"></tr>
+    </table>
+  </div>
+</div>
+<br>
+<div>
+
+</div>
