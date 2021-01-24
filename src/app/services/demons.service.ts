@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { DemonsModel } from './../../assets/model/all-models';
+import { DemonsModel, MagatamaModel } from './../../assets/model/all-models';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -7,11 +7,17 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class DemonsService {
-  url: any;
+  demonUrl: any;
+  magatamaUrl: any;
   constructor(private http: HttpClient) {}
 
   getDemons(): Observable<DemonsModel[]> {
-    this.url = '../../assets/json/demons.json';
-    return this.http.get<DemonsModel[]>(this.url);
+    this.demonUrl = '../../assets/json/demons.json';
+    return this.http.get<DemonsModel[]>(this.demonUrl);
+  }
+
+  getMagatama(): Observable<MagatamaModel[]> {
+    this.magatamaUrl = '../../assets/json/magatama.json';
+    return this.http.get<MagatamaModel[]>(this.magatamaUrl);
   }
 }

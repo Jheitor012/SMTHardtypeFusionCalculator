@@ -16,6 +16,12 @@ export class DemonsModel {
   // skills: SkillModel[];
 }
 
+export class MagatamaModel {
+  name: string;
+  location: string;
+  // skills: SkillModel[];
+}
+
 // export class ResistancesModel {
 //   phys: string;
 //   fire: string;

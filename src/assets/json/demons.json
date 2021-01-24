@@ -1,57 +1,71 @@
 [
 	{
+		"id": 1,
 		"race": "Foul",
 		"name": "Will o' Wisp"
 	},
 	{
+		"id": 2,
 		"race": "Fairy",
 		"name": "Pixie"
 	},
 	{
+		"id": 3,
 		"race": "Jirae",
 		"name": "Kodama"
 	},
 	{
+		"id": 4,
 		"race": "Haunt",
 		"name": "Preta"
 	},
 	{
+		"id": 5,
 		"race": "Brute",
 		"name": "Shikigami"
 	},
 	{
+		"id": 6,
 		"race": "Jirae",
 		"name": "Hua Po"
 	},
 	{
+		"id": 7,
 		"race": "Foul",
 		"name": "Slime"
 	},
 	{
+		"id": 8,
 		"race": "Wilder",
 		"name": "Zhen"
 	},
 	{
+		"id": 9,
 		"race": "Element",
 		"name": "Erthys"
 	},
 	{
+		"id": 10,
 		"race": "Foul",
 		"name": "Mou-Ryo"
 	},
 	{
+		"id": 11,
 		"race": "Femme",
 		"name": "Datsue-Ba"
 	},
 	{
+		"id": 12,
 		"race": "Fairy",
 		"name": "Jack Frost"
 	},
 	{
+		"id": 13,
 		"race": "Night",
 		"name": "Lilim"
 	},
 	{
+		"id": 14,
 		"race": "Yoma",
 		"name": "Apsaras"
 	},
@@ -284,6 +298,7 @@
 		"name": "Orthrus"
 	},
 	{
+		"race": "Snake",
 		"name": "Mizuchi"
 	},
 	{

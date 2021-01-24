@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Marogareh",
+    "location": "Recieved automatically after becoming the Demi-Fiend"
+  },
+  {
+    "id": 2,
+    "name": "Wadatsumi",
+    "location": "Received automatically after defeating Forneus"
+  },
+  {
+    "id": 3,
+    "name": "Shiranui",
+    "location": "Sold at a Junk Shop in Shibuya"
+  },
+  {
+    "id": 4,
+    "name": "Iyomante",
+    "location": "Sold at a Junk Shop in Shibuya"
+  },
+  {
+    "id": 5,
+    "name": "Ankh",
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+  },
+  {
+    "id": 6,
+    "name": "Hifumi",
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+  },
+  {
+    "id": 7,
+    "name": "Kamudo",
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+  },
+  {
+    "id": 8,
+    "name": "Narukami",
+    "location": "Received automatically after defeating Thor"
+  },
+  {
+    "id": 9,
+    "name": "Anathema",
+    "location": "Received automatically after defeating Ose"
+  },
+  {
+    "id": 10,
+    "name": "Miasma",
+    "location": "Received automatically after defeating Mizuchi"
+  },
+  {
+    "id": 11,
+    "name": "Nirvana",
+    "location": "Sold at a Junk Shop in Asakusa"
+  },
+  {
+    "id": 12,
+    "name": "Gehenna",
+    "location": "Sold at a Junk Shop in Asakusa"
+  },
+  {
+    "id": 13,
+    "name": "Geis",
+    "location": "Received automatically by completing Puzzle Boy in Asakusa. Can be bought in a Junk Shop in Asakusa"
+  },
+  {
+    "id": 14,
+    "name": "Murakumo",
+    "location": "Received automatically after defeating Ongyo-ki"
+  },
+  {
+    "id": 15,
+    "name": "Djed",
+    "location": "Received automatically after defeating the Moirae Sisters"
+  },
+  {
+    "id": 16,
+    "name": "Sophia",
+    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+  },
+  {
+    "id": 17,
+    "name": "Kamurogi",
+    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+  },
+  {
+    "id": 18,
+    "name": "Vimana",
+    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+  },
+  {
+    "id": 19,
+    "name": "Muspell",
+    "location": "Received automatically after defeating Mara"
+  },
+  {
+    "id": 20,
+    "name": "Satan",
+    "location": "Received automatically after defeating Black Frost"
+  },
+  {
+    "id": 21,
+    "name": "Adama",
+    "location": "Received automatically after defeating Albion"
+  },
+  {
+    "id": 22,
+    "name": "Gundari",
+    "location": "Received automatically after defeating Bishamonten"
+  },
+  {
+    "id": 23,
+    "name": "Gaea",
+    "location": "Opening the door located in the prison of the Mantra HQ with a base ST of 24"
+  },
+  {
+    "id": 24,
+    "name": "Kailash",
+    "location": "Sold at a Junk Shop in Tower of Kagutsuchi 3"
+  },
+  {
+    "id": 25,
+    "name": "Masakados",
+    "location": "Received automatically after defeating the four Devas and speaking to Taira-No-Masakado in the Bandou Shrine"
+  }
+]

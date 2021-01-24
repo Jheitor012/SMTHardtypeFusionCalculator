@@ -14,6 +14,11 @@ const routes: Routes = [
             (e) => e.MainDemonsPageModule
           ),
       },
+      {
+        path: 'Details',
+        loadChildren: () =>
+          import('../detail/detail.module').then((e) => e.DetailModule),
+      },
     ],
   },
 ];
