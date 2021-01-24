@@ -3,7 +3,7 @@
     <mat-card-header>
       <mat-card-title>{{name}}</mat-card-title>
       <mat-card-subtitle *ngIf="this.isMagatama">Magatama</mat-card-subtitle>
-      <mat-card-subtitle *ngIf="!this.isMagatama">demon</mat-card-subtitle>
+      <mat-card-subtitle *ngIf="!this.isMagatama">{{race}}</mat-card-subtitle>
     </mat-card-header>
     <img *ngIf="isDemon" mat-card-image src="../../../../../assets/img/daisoujou_teste.png" class="demon-img">
     <mat-card-content>

@@ -27,10 +27,10 @@ export class DetailsComponent implements OnInit {
 
   name = '';
   desc = '';
+  race = '';
   constructor(private route: ActivatedRoute, private service: DemonsService) {}
 
   ngOnInit(): void {
-    this.getMagatamaById();
     this.route.url.subscribe((resp) => {
       resp.map((x) => {
         if (x.path === 'Demons') {
@@ -41,6 +41,7 @@ export class DetailsComponent implements OnInit {
         if (x.path === 'Magatama') {
           this.isMagatama = true;
           this.isDemon = false;
+          this.getMagatamaById();
         }
       });
     });
@@ -51,6 +52,8 @@ export class DetailsComponent implements OnInit {
     const demonId = Number(this.demonId);
     this.service.getDemons().subscribe((resp) => {
       this.demonModel = resp.find((x) => x.id === demonId);
+      this.name = this.demonModel.name;
+      this.race = this.demonModel.race;
     });
   }
 
