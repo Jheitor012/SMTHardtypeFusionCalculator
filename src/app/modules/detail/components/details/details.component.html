@@ -10,7 +10,7 @@
       <mat-grid-list cols="2" rowHeight="50px">
         <mat-grid-tile *ngFor="let item of skillsModel" [colspan]="1" [rowspan]="1" (mouseover)="getSkillDesc(item.id)"
           (mouseout)="desc = ''">
-          <button>
+          <button mat-ripple matRippleColor="rgba(255,255,255,0.15)">
             {{item.name}}
           </button>
         </mat-grid-tile>

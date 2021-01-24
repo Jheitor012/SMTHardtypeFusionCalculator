@@ -1,3 +1,4 @@
+import { MatRippleModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { SharedModule } from './../../shared/shared.module';
@@ -14,6 +15,7 @@ const components = [
   MatGridListModule,
   MatButtonModule,
   MatDividerModule,
+  MatRippleModule,
 ];
 
 @NgModule({
