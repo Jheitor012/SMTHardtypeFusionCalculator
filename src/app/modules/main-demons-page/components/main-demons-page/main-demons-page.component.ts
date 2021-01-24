@@ -1,4 +1,7 @@
-import { MagatamaModel } from './../../../../../assets/model/all-models';
+import {
+  MagatamaModel,
+  ResistancesModel,
+} from './../../../../../assets/model/all-models';
 import { DemonsService } from './../../../../services/demons.service';
 import { Component, OnInit } from '@angular/core';
 import { DemonsModel } from 'src/assets/model/all-models';
@@ -14,7 +17,24 @@ export class MainDemonsPageComponent implements OnInit {
   magatamaArray: MagatamaModel[];
 
   columnsDisplayDemons = ['race', 'name'];
-  columnsDisplayMagatamas = ['name', 'location'];
+  columnsDisplayMagatamas = [
+    'name',
+    'baseSt',
+    'baseMa',
+    'baseVi',
+    'baseAg',
+    'baseLu',
+    'phys',
+    'fire',
+    'ice',
+    'elec',
+    'force',
+    'curse',
+    'nerve',
+    'mind',
+    'expel',
+    'death',
+  ];
   constructor(private demonsService: DemonsService, private route: Router) {}
 
   ngOnInit(): void {
@@ -22,8 +42,12 @@ export class MainDemonsPageComponent implements OnInit {
     this.getMagatamas();
   }
 
-  navigateToDetail(id): void {
-    this.route.navigateByUrl(`/Details/${id}`);
+  navigateToDetailDemons(id): void {
+    this.route.navigateByUrl(`/Details/Demons/${id}`);
+  }
+
+  navigateToDetailMagatama(id): void {
+    this.route.navigateByUrl(`/Details/Magatama/${id}`);
   }
 
   getDemons(): void {

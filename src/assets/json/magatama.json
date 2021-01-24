@@ -2,126 +2,579 @@
   {
     "id": 1,
     "name": "Marogareh",
-    "location": "Recieved automatically after becoming the Demi-Fiend"
+    "location": "Recieved automatically after becoming the Demi-Fiend",
+    "baseSt": 2,
+    "baseMa": 1,
+    "baseVi": 2,
+    "baseAg": 1,
+    "baseLu": 2,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    },
+    "skills": [
+      {
+        "id": 1,
+        "name": "Lunge",
+        "desc": "Light Phys Dmg"
+      },
+      {
+        "name": "Analyze"
+      },
+      {
+        "name": "DeathTouch"
+      },
+      {
+        "name": "Stun Gaze"
+      },
+      {
+        "name": "Berserk"
+      },
+      {
+        "name": "Counter"
+      },
+      {
+        "name": "Dark Might"
+      },
+      {
+        "name": "Pierce"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Wadatsumi",
-    "location": "Received automatically after defeating Forneus"
+    "location": "Received automatically after defeating Forneus",
+    "baseSt": 0,
+    "baseMa": 4,
+    "baseVi": 2,
+    "baseAg": 2,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "Void",
+      "elec": "Weak",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 3,
     "name": "Shiranui",
-    "location": "Sold at a Junk Shop in Shibuya"
+    "location": "Sold at a Junk Shop in Shibuya",
+    "baseSt": 0,
+    "baseMa": 5,
+    "baseVi": 0,
+    "baseAg": 5,
+    "baseLu": 0,
+    "resistances": {
+      "phys": "-",
+      "fire": "Void",
+      "ice": "-",
+      "elec": "-",
+      "force": "Weak",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 4,
     "name": "Iyomante",
-    "location": "Sold at a Junk Shop in Shibuya"
+    "location": "Sold at a Junk Shop in Shibuya",
+    "baseSt": 3,
+    "baseMa": 0,
+    "baseVi": 3,
+    "baseAg": 2,
+    "baseLu": 2,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "Void",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 5,
     "name": "Ankh",
-    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza",
+    "baseSt": 1,
+    "baseMa": 1,
+    "baseVi": 4,
+    "baseAg": 0,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Void",
+      "death": "Weak"
+    }
   },
   {
     "id": 6,
     "name": "Hifumi",
-    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza",
+    "baseSt": 0,
+    "baseMa": 3,
+    "baseVi": 0,
+    "baseAg": 3,
+    "baseLu": 5,
+    "resistances": {
+      "phys": "-",
+      "fire": "Weak",
+      "ice": "-",
+      "elec": "-",
+      "force": "Void",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 7,
     "name": "Kamudo",
-    "location": "Sold at a Junk Shop in the Great Underpass of Ginza"
+    "location": "Sold at a Junk Shop in the Great Underpass of Ginza",
+    "baseSt": 5,
+    "baseMa": 0,
+    "baseVi": 3,
+    "baseAg": 3,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "Resist",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "Weak",
+      "mind": "Weak",
+      "nerve": "Weak",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 8,
     "name": "Narukami",
-    "location": "Received automatically after defeating Thor"
+    "location": "Received automatically after defeating Thor",
+    "baseSt": 6,
+    "baseMa": 6,
+    "baseVi": 0,
+    "baseAg": 4,
+    "baseLu": 0,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "Weak",
+      "elec": "Void",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 9,
     "name": "Anathema",
-    "location": "Received automatically after defeating Ose"
+    "location": "Received automatically after defeating Ose",
+    "baseSt": 0,
+    "baseMa": 8,
+    "baseVi": 2,
+    "baseAg": 2,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Weak",
+      "death": "Void"
+    }
   },
   {
     "id": 10,
     "name": "Miasma",
-    "location": "Received automatically after defeating Mizuchi"
+    "location": "Received automatically after defeating Mizuchi",
+    "baseSt": 2,
+    "baseMa": 2,
+    "baseVi": 2,
+    "baseAg": 6,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "Weak",
+      "ice": "Void",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 11,
     "name": "Nirvana",
-    "location": "Sold at a Junk Shop in Asakusa"
+    "location": "Sold at a Junk Shop in Asakusa",
+    "baseSt": 1,
+    "baseMa": 1,
+    "baseVi": 3,
+    "baseAg": 2,
+    "baseLu": 8,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Void",
+      "death": "Weak"
+    }
   },
   {
     "id": 12,
     "name": "Gehenna",
-    "location": "Sold at a Junk Shop in Asakusa"
+    "location": "Sold at a Junk Shop in Asakusa",
+    "baseSt": 5,
+    "baseMa": 5,
+    "baseVi": 1,
+    "baseAg": 9,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "-",
+      "fire": "Drain",
+      "ice": "Weak",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 13,
     "name": "Geis",
-    "location": "Received automatically by completing Puzzle Boy in Asakusa. Can be bought in a Junk Shop in Asakusa"
+    "location": "Received automatically by completing Puzzle Boy in Asakusa. Can be bought in a Junk Shop in Asakusa",
+    "baseSt": 2,
+    "baseMa": 2,
+    "baseVi": 6,
+    "baseAg": 3,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Void",
+      "death": "-"
+    }
   },
   {
     "id": 14,
     "name": "Murakumo",
-    "location": "Received automatically after defeating Ongyo-ki"
+    "location": "Received automatically after defeating Ongyo-ki",
+    "baseSt": 6,
+    "baseMa": 6,
+    "baseVi": 3,
+    "baseAg": 3,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "Resis",
+      "fire": "Weak",
+      "ice": "Weak",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 15,
     "name": "Djed",
-    "location": "Received automatically after defeating the Moirae Sisters"
+    "location": "Received automatically after defeating the Moirae Sisters",
+    "baseSt": 5,
+    "baseMa": 1,
+    "baseVi": 5,
+    "baseAg": 1,
+    "baseLu": 5,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "Void",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 16,
     "name": "Sophia",
-    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+    "location": "Sold at the Collecto's Junk Shop in Asakusa",
+    "baseSt": 1,
+    "baseMa": 3,
+    "baseVi": 5,
+    "baseAg": 6,
+    "baseLu": 10,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Void",
+      "death": "-"
+    }
   },
   {
     "id": 17,
     "name": "Kamurogi",
-    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+    "location": "Sold at the Collecto's Junk Shop in Asakusa",
+    "baseSt": 8,
+    "baseMa": 0,
+    "baseVi": 4,
+    "baseAg": 4,
+    "baseLu": 4,
+    "resistances": {
+      "phys": "Resist",
+      "fire": "-",
+      "ice": "-",
+      "elec": "Weak",
+      "force": "Weak",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 18,
     "name": "Vimana",
-    "location": "Sold at the Collecto's Junk Shop in Asakusa"
+    "location": "Sold at the Collecto's Junk Shop in Asakusa",
+    "baseSt": 10,
+    "baseMa": 2,
+    "baseVi": 5,
+    "baseAg": 1,
+    "baseLu": 6,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "Void",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 19,
     "name": "Muspell",
-    "location": "Received automatically after defeating Mara"
+    "location": "Received automatically after defeating Mara",
+    "baseSt": 0,
+    "baseMa": 8,
+    "baseVi": 6,
+    "baseAg": 0,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "Resist",
+      "mind": "Resist",
+      "nerve": "Resist",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 20,
     "name": "Satan",
-    "location": "Received automatically after defeating Black Frost"
+    "baseSt": 4,
+    "baseMa": 4,
+    "baseVi": 10,
+    "baseAg": 2,
+    "baseLu": 3,
+    "location": "Received automatically after defeating Black Frost",
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "Void"
+    }
   },
   {
     "id": 21,
     "name": "Adama",
-    "location": "Received automatically after defeating Albion"
+    "location": "Received automatically after defeating Albion",
+    "baseSt": 4,
+    "baseMa": 4,
+    "baseVi": 10,
+    "baseAg": 2,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "Repel",
+      "force": "Weak",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 22,
     "name": "Gundari",
-    "location": "Received automatically after defeating Bishamonten"
+    "location": "Received automatically after defeating Bishamonten",
+    "baseSt": 6,
+    "baseMa": 4,
+    "baseVi": 2,
+    "baseAg": 10,
+    "baseLu": 3,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "Weak",
+      "force": "Drain",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "-",
+      "death": "-"
+    }
   },
   {
     "id": 23,
     "name": "Gaea",
-    "location": "Opening the door located in the prison of the Mantra HQ with a base ST of 24"
+    "location": "Opening the door located in the prison of the Mantra HQ with a base ST of 24",
+    "baseSt": 10,
+    "baseMa": 0,
+    "baseVi": 10,
+    "baseAg": 3,
+    "baseLu": 1,
+    "resistances": {
+      "phys": "Resist",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Weak",
+      "death": "Weak"
+    }
   },
   {
     "id": 24,
     "name": "Kailash",
-    "location": "Sold at a Junk Shop in Tower of Kagutsuchi 3"
+    "location": "Sold at a Junk Shop in Tower of Kagutsuchi 3",
+    "baseSt": 2,
+    "baseMa": 10,
+    "baseVi": 8,
+    "baseAg": 1,
+    "baseLu": 6,
+    "resistances": {
+      "phys": "-",
+      "fire": "-",
+      "ice": "-",
+      "elec": "-",
+      "force": "-",
+      "curse": "-",
+      "mind": "-",
+      "nerve": "-",
+      "expel": "Void",
+      "death": "Void"
+    }
   },
   {
     "id": 25,
     "name": "Masakados",
-    "location": "Received automatically after defeating the four Devas and speaking to Taira-No-Masakado in the Bandou Shrine"
+    "location": "Received automatically after defeating the four Devas and speaking to Taira-No-Masakado in the Bandou Shrine",
+    "baseSt": 10,
+    "baseMa": 10,
+    "baseVi": 10,
+    "baseAg": 10,
+    "baseLu": 10,
+    "resistances": {
+      "phys": "Resist",
+      "fire": "Resist",
+      "ice": "Resist",
+      "elec": "Resist",
+      "force": "Resist",
+      "curse": "Void",
+      "mind": "Void",
+      "nerve": "Void",
+      "expel": "Void",
+      "death": "Void"
+    }
   }
 ]

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: birch;
+  src: url("./assets/fonts/birch-std.otf");
+}
+
 html,
 body {
   height: 100%;
@@ -10,7 +15,7 @@ body {
 
 .container {
   display: block;
-  margin: 0 25%;
+  margin: 0 20%;
 }
 
 @media screen and (max-width: 600px) {
@@ -30,4 +35,39 @@ body {
 
 .mat-card-subtitle {
   color: #dbdbdb;
+}
+
+table {
+  width: 100%;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+button {
+  border: 5px solid #181920;
+  width: 90%;
+  vertical-align: middle;
+  /* background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(48, 47, 97, 1) 100%
+  ); */
+  background: rgb(16, 16, 23);
+  background: radial-gradient(
+    circle,
+    rgba(16, 16, 23, 1) 0%,
+    rgba(33, 36, 47, 1) 100%
+  );
+  color: white;
+  font-size: 25px;
+  font-family: birch;
+  outline: none;
+  transition: 0.1s;
+  border-radius: 2px;
+}
+
+button:hover {
+  border-color: #31ff9f;
 }

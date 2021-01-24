@@ -7,8 +7,14 @@ import { CommonModule } from '@angular/common';
 import { DetailRoutingModule } from './detail-routing.module';
 import { DetailsComponent } from './components/details/details.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
 
-const components = [MatCardModule, MatGridListModule, MatButtonModule];
+const components = [
+  MatCardModule,
+  MatGridListModule,
+  MatButtonModule,
+  MatDividerModule,
+];
 
 @NgModule({
   declarations: [DetailsComponent],

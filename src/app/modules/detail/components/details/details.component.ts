@@ -1,4 +1,11 @@
+import {
+  MagatamaModel,
+  DemonsModel,
+  SkillModel,
+} from './../../../../../assets/model/all-models';
+import { DemonsService } from './../../../../services/demons.service';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-details',
@@ -6,7 +13,59 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./details.component.css'],
 })
 export class DetailsComponent implements OnInit {
-  constructor() {}
+  isDemon = false;
+  isMagatama = false;
 
-  ngOnInit(): void {}
+  tiles = [];
+
+  demonId: number;
+  magatamaId: number;
+
+  magatamaModel: MagatamaModel;
+  demonModel: DemonsModel;
+  skillsModel: SkillModel[];
+
+  name = '';
+  desc = '';
+  constructor(private route: ActivatedRoute, private service: DemonsService) {}
+
+  ngOnInit(): void {
+    this.getMagatamaById();
+    this.route.url.subscribe((resp) => {
+      resp.map((x) => {
+        if (x.path === 'Demons') {
+          this.isDemon = true;
+          this.isMagatama = false;
+          this.getDemonById();
+        }
+        if (x.path === 'Magatama') {
+          this.isMagatama = true;
+          this.isDemon = false;
+        }
+      });
+    });
+  }
+
+  getDemonById(): void {
+    this.demonId = this.route.snapshot.params.id;
+    const demonId = Number(this.demonId);
+    this.service.getDemons().subscribe((resp) => {
+      this.demonModel = resp.find((x) => x.id === demonId);
+    });
+  }
+
+  getMagatamaById(): void {
+    this.magatamaId = this.route.snapshot.params.id;
+    const magatamaId = Number(this.magatamaId);
+    this.service.getMagatama().subscribe((resp) => {
+      this.magatamaModel = resp.find((x) => x.id === magatamaId);
+      this.name = this.magatamaModel.name;
+      this.skillsModel = this.magatamaModel.skills;
+    });
+  }
+
+  getSkillDesc(id): void {
+    const a = this.skillsModel.find((x) => x.id === id);
+    this.desc = a.desc;
+  }
 }

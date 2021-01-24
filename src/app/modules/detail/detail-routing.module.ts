@@ -4,7 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: ':id',
+    path: 'Demons/:id',
+    component: DetailsComponent,
+  },
+  {
+    path: 'Magatama/:id',
     component: DetailsComponent,
   },
 ];
