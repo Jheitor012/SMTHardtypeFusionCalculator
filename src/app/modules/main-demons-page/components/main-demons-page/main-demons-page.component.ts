@@ -16,7 +16,7 @@ export class MainDemonsPageComponent implements OnInit {
   demonsArray: DemonsModel[];
   magatamaArray: MagatamaModel[];
 
-  columnsDisplayDemons = ['race', 'name'];
+  columnsDisplayDemons = ['race', 'name', 'phys'];
   columnsDisplayMagatamas = [
     'name',
     'baseSt',

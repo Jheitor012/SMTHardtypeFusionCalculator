@@ -13,7 +13,7 @@ export class DemonsModel {
   // isBoss: boolean;
   // isBroker: boolean;
   // isEvolved: boolean;
-  // resistances: ResistancesModel;
+  resistances: ResistancesModel;
   // skills: SkillModel[];
 }
 

@@ -1,5 +1,8 @@
 [
   {
-    
+    "id": 1,
+    "name": "Lunge",
+    "type": "Physical",
+    "desc": "Light damage to one foe."
   }
 ]
