@@ -13,7 +13,7 @@ export class DemonsModel {
   // isBoss: boolean;
   // isBroker: boolean;
   // isEvolved: boolean;
-  resistances: ResistancesModel;
+  resistances?: ResistancesModel;
   // skills: SkillModel[];
 }
 
@@ -21,7 +21,7 @@ export class MagatamaModel {
   id: number;
   name: string;
   location: string;
-  skills: SkillModel[];
+  // skills?: SkillModel[];
   resistances: ResistancesModel;
   baseSt: number;
   baseMa: number;

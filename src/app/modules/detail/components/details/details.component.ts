@@ -63,7 +63,7 @@ export class DetailsComponent implements OnInit {
     this.service.getMagatama().subscribe((resp) => {
       this.magatamaModel = resp.find((x) => x.id === magatamaId);
       this.name = this.magatamaModel.name;
-      this.skillsModel = this.magatamaModel.skills;
+      // this.skillsModel = this.magatamaModel.skills;
     });
   }
 

@@ -46,3 +46,10 @@ br {
     height: 100%;
   }
 }
+
+.home {
+  position: fixed;
+  top: 0;
+  color: white;
+  z-index: 9999;
+}

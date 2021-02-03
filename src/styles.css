@@ -45,7 +45,7 @@ tbody tr {
   cursor: pointer;
 }
 
-button {
+.custom-btn {
   border: 5px solid #181920;
   width: 90%;
   vertical-align: middle;
@@ -68,6 +68,6 @@ button {
   border-radius: 2px;
 }
 
-button:hover {
+.custom-btn:hover {
   border-color: #31ff9f;
 }

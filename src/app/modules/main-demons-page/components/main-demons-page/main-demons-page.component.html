@@ -11,18 +11,6 @@
             <th mat-header-cell *matHeaderCellDef>Name</th>
             <td mat-cell *matCellDef="let demonsArray">{{demonsArray.name}}</td>
           </ng-container>
-          <ng-container matColumnDef="phys">
-            <th mat-header-cell *matHeaderCellDef>Physical</th>
-            <td mat-cell *matCellDef="let demonsArray">{{demonsArray.resistances.phys}}</td>
-          </ng-container>
-          <!-- <ng-container matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef>Name</th>
-            <td mat-cell *matCellDef="let demonsArray">{{demonsArray.name}}</td>
-          </ng-container>
-          <ng-container matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef>Name</th>
-            <td mat-cell *matCellDef="let demonsArray">{{demonsArray.name}}</td>
-          </ng-container> -->
           <tr mat-header-row *matHeaderRowDef="columnsDisplayDemons; sticky: true"></tr>
           <tr mat-row *matRowDef="let demonsArray; columns: columnsDisplayDemons"
             (click)="navigateToDetailDemons(demonsArray.id)"></tr>
@@ -35,23 +23,23 @@
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.name}}</td>
           </ng-container>
           <ng-container matColumnDef="baseSt">
-            <th mat-header-cell *matHeaderCellDef>Additional St</th>
+            <th mat-header-cell *matHeaderCellDef>St</th>
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.baseSt}}</td>
           </ng-container>
           <ng-container matColumnDef="baseMa">
-            <th mat-header-cell *matHeaderCellDef>Additional Ma</th>
+            <th mat-header-cell *matHeaderCellDef>Ma</th>
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.baseMa}}</td>
           </ng-container>
           <ng-container matColumnDef="baseVi">
-            <th mat-header-cell *matHeaderCellDef>Additional Vi</th>
+            <th mat-header-cell *matHeaderCellDef>Vi</th>
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.baseVi}}</td>
           </ng-container>
           <ng-container matColumnDef="baseAg">
-            <th mat-header-cell *matHeaderCellDef>Additional Ag</th>
+            <th mat-header-cell *matHeaderCellDef>Ag</th>
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.baseAg}}</td>
           </ng-container>
           <ng-container matColumnDef="baseLu">
-            <th mat-header-cell *matHeaderCellDef>Additional Lu</th>
+            <th mat-header-cell *matHeaderCellDef>Lu</th>
             <td mat-cell *matCellDef="let magatamaArray">{{magatamaArray.baseLu}}</td>
           </ng-container>
           <ng-container matColumnDef="phys">

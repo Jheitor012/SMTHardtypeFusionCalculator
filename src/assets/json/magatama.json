@@ -19,35 +19,7 @@
       "nerve": "-",
       "expel": "-",
       "death": "-"
-    },
-    "skills": [
-      {
-        "id": 1,
-        "name": "Lunge",
-        "desc": "Light Phys Dmg"
-      },
-      {
-        "name": "Analyze"
-      },
-      {
-        "name": "DeathTouch"
-      },
-      {
-        "name": "Stun Gaze"
-      },
-      {
-        "name": "Berserk"
-      },
-      {
-        "name": "Counter"
-      },
-      {
-        "name": "Dark Might"
-      },
-      {
-        "name": "Pierce"
-      }
-    ]
+    }
   },
   {
     "id": 2,
