@@ -33,8 +33,8 @@
     "resistances": {
       "phys": "-",
       "fire": "-",
-      "ice": "Void",
-      "elec": "Weak",
+      "ice": "Nu",
+      "elec": "Wk",
       "force": "-",
       "curse": "-",
       "mind": "-",
@@ -54,10 +54,10 @@
     "baseLu": 0,
     "resistances": {
       "phys": "-",
-      "fire": "Void",
+      "fire": "Nu",
       "ice": "-",
       "elec": "-",
-      "force": "Weak",
+      "force": "Wk",
       "curse": "-",
       "mind": "-",
       "nerve": "-",
@@ -81,7 +81,7 @@
       "elec": "-",
       "force": "-",
       "curse": "-",
-      "mind": "Void",
+      "mind": "Nu",
       "nerve": "-",
       "expel": "-",
       "death": "-"
@@ -105,8 +105,8 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Void",
-      "death": "Weak"
+      "expel": "Nu",
+      "death": "Wk"
     }
   },
   {
@@ -120,10 +120,10 @@
     "baseLu": 5,
     "resistances": {
       "phys": "-",
-      "fire": "Weak",
+      "fire": "Wk",
       "ice": "-",
       "elec": "-",
-      "force": "Void",
+      "force": "Nu",
       "curse": "-",
       "mind": "-",
       "nerve": "-",
@@ -141,14 +141,14 @@
     "baseAg": 3,
     "baseLu": 1,
     "resistances": {
-      "phys": "Resist",
+      "phys": "Rs",
       "fire": "-",
       "ice": "-",
       "elec": "-",
       "force": "-",
-      "curse": "Weak",
-      "mind": "Weak",
-      "nerve": "Weak",
+      "curse": "Wk",
+      "mind": "Wk",
+      "nerve": "Wk",
       "expel": "-",
       "death": "-"
     }
@@ -165,8 +165,8 @@
     "resistances": {
       "phys": "-",
       "fire": "-",
-      "ice": "Weak",
-      "elec": "Void",
+      "ice": "Wk",
+      "elec": "Nu",
       "force": "-",
       "curse": "-",
       "mind": "-",
@@ -193,8 +193,8 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Weak",
-      "death": "Void"
+      "expel": "Wk",
+      "death": "Nu"
     }
   },
   {
@@ -208,8 +208,8 @@
     "baseLu": 3,
     "resistances": {
       "phys": "-",
-      "fire": "Weak",
-      "ice": "Void",
+      "fire": "Wk",
+      "ice": "Nu",
       "elec": "-",
       "force": "-",
       "curse": "-",
@@ -237,8 +237,8 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Void",
-      "death": "Weak"
+      "expel": "Nu",
+      "death": "Wk"
     }
   },
   {
@@ -252,8 +252,8 @@
     "baseLu": 1,
     "resistances": {
       "phys": "-",
-      "fire": "Drain",
-      "ice": "Weak",
+      "fire": "Dr",
+      "ice": "Wk",
       "elec": "-",
       "force": "-",
       "curse": "-",
@@ -281,7 +281,7 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Void",
+      "expel": "Nu",
       "death": "-"
     }
   },
@@ -295,9 +295,9 @@
     "baseAg": 3,
     "baseLu": 1,
     "resistances": {
-      "phys": "Resis",
-      "fire": "Weak",
-      "ice": "Weak",
+      "phys": "Rs",
+      "fire": "Wk",
+      "ice": "Wk",
       "elec": "-",
       "force": "-",
       "curse": "-",
@@ -322,7 +322,7 @@
       "ice": "-",
       "elec": "-",
       "force": "-",
-      "curse": "Void",
+      "curse": "Nu",
       "mind": "-",
       "nerve": "-",
       "expel": "-",
@@ -347,7 +347,7 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Void",
+      "expel": "Nu",
       "death": "-"
     }
   },
@@ -361,11 +361,11 @@
     "baseAg": 4,
     "baseLu": 4,
     "resistances": {
-      "phys": "Resist",
+      "phys": "Rs",
       "fire": "-",
       "ice": "-",
-      "elec": "Weak",
-      "force": "Weak",
+      "elec": "Wk",
+      "force": "Wk",
       "curse": "-",
       "mind": "-",
       "nerve": "-",
@@ -390,7 +390,7 @@
       "force": "-",
       "curse": "-",
       "mind": "-",
-      "nerve": "Void",
+      "nerve": "Nu",
       "expel": "-",
       "death": "-"
     }
@@ -410,9 +410,9 @@
       "ice": "-",
       "elec": "-",
       "force": "-",
-      "curse": "Resist",
-      "mind": "Resist",
-      "nerve": "Resist",
+      "curse": "Rs",
+      "mind": "Rs",
+      "nerve": "Rs",
       "expel": "-",
       "death": "-"
     }
@@ -436,7 +436,7 @@
       "mind": "-",
       "nerve": "-",
       "expel": "-",
-      "death": "Void"
+      "death": "Nu"
     }
   },
   {
@@ -452,8 +452,8 @@
       "phys": "-",
       "fire": "-",
       "ice": "-",
-      "elec": "Repel",
-      "force": "Weak",
+      "elec": "Rpl",
+      "force": "Wk",
       "curse": "-",
       "mind": "-",
       "nerve": "-",
@@ -474,8 +474,8 @@
       "phys": "-",
       "fire": "-",
       "ice": "-",
-      "elec": "Weak",
-      "force": "Drain",
+      "elec": "Wk",
+      "force": "Dr",
       "curse": "-",
       "mind": "-",
       "nerve": "-",
@@ -493,7 +493,7 @@
     "baseAg": 3,
     "baseLu": 1,
     "resistances": {
-      "phys": "Resist",
+      "phys": "Rs",
       "fire": "-",
       "ice": "-",
       "elec": "-",
@@ -501,8 +501,8 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Weak",
-      "death": "Weak"
+      "expel": "Wk",
+      "death": "Wk"
     }
   },
   {
@@ -523,8 +523,8 @@
       "curse": "-",
       "mind": "-",
       "nerve": "-",
-      "expel": "Void",
-      "death": "Void"
+      "expel": "Nu",
+      "death": "Nu"
     }
   },
   {
@@ -537,16 +537,16 @@
     "baseAg": 10,
     "baseLu": 10,
     "resistances": {
-      "phys": "Resist",
-      "fire": "Resist",
-      "ice": "Resist",
-      "elec": "Resist",
-      "force": "Resist",
-      "curse": "Void",
-      "mind": "Void",
-      "nerve": "Void",
-      "expel": "Void",
-      "death": "Void"
+      "phys": "Rs",
+      "fire": "Rs",
+      "ice": "Rs",
+      "elec": "Rs",
+      "force": "Rs",
+      "curse": "Nu",
+      "mind": "Nu",
+      "nerve": "Nu",
+      "expel": "Nu",
+      "death": "Nu"
     }
   }
 ]

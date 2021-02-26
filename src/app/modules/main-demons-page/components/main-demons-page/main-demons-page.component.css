@@ -2,3 +2,8 @@
   position: relative;
   z-index: 0;
 }
+
+.table-wrap {
+  max-height: 65vh;
+  overflow: auto;
+}

@@ -1,12 +1,12 @@
-import {
-  MagatamaModel,
-  ResistancesModel,
-} from './../../../../../assets/model/all-models';
+import { MagatamaModel } from './../../../../../assets/model/all-models';
 import { DemonsService } from './../../../../services/demons.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { DemonsModel } from 'src/assets/model/all-models';
 import { Router } from '@angular/router';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
 
+const ELEMENT_DATA_MAGATAMA: MagatamaModel[] = [];
 @Component({
   selector: 'app-main-demons-page',
   templateUrl: './main-demons-page.component.html',
@@ -14,7 +14,8 @@ import { Router } from '@angular/router';
 })
 export class MainDemonsPageComponent implements OnInit {
   demonsArray: DemonsModel[];
-  magatamaArray: MagatamaModel[];
+  // magatamaArray: MagatamaModel[];
+  magatamaArray = new MatTableDataSource(ELEMENT_DATA_MAGATAMA);
 
   columnsDisplayDemons = ['race', 'name'];
   // 'phys';
@@ -36,10 +37,12 @@ export class MainDemonsPageComponent implements OnInit {
     'expel',
     'death',
   ];
-  constructor(private demonsService: DemonsService, private route: Router) {}
 
+  constructor(private demonsService: DemonsService, private route: Router) {}
+  @ViewChild(MatSort) sort: MatSort;
   ngOnInit(): void {
     this.getDemons();
+
     this.getMagatamas();
   }
 
@@ -59,7 +62,10 @@ export class MainDemonsPageComponent implements OnInit {
 
   getMagatamas(): void {
     this.demonsService.getMagatama().subscribe((resp) => {
-      this.magatamaArray = resp;
+      resp.forEach((x) => {
+        ELEMENT_DATA_MAGATAMA.push(x);
+      });
+      this.magatamaArray.sort = this.sort;
     });
   }
 }

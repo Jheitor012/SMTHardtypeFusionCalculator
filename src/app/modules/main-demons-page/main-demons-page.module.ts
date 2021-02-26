@@ -7,8 +7,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatRippleModule } from '@angular/material/core';
+import { MatSortModule } from '@angular/material/sort';
 
-const comp = [MatButtonModule, MatTableModule, MatTabsModule, MatRippleModule];
+const comp = [
+  MatButtonModule,
+  MatTableModule,
+  MatTabsModule,
+  MatRippleModule,
+  MatSortModule,
+];
 
 @NgModule({
   declarations: [MainDemonsPageComponent],

@@ -15,12 +15,12 @@ body {
 
 .container {
   display: block;
-  margin: 0 20%;
+  margin: 0 10%;
 }
 
 @media screen and (max-width: 600px) {
   .container {
-    margin: 0 5%;
+    margin: 0 3%;
   }
 }
 
@@ -33,16 +33,34 @@ body {
   color: white !important;
 }
 
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+  background-color: transparent;
+  color: white;
+}
+
+/* Styles for the ink bar */
+.mat-ink-bar {
+  background-color: white;
+}
+
 .mat-card-subtitle {
   color: #dbdbdb;
 }
 
 table {
   width: 100%;
+  background-color: #040014 !important;
 }
 
 tbody tr {
   cursor: pointer;
+}
+
+thead th,
+tbody td {
+  color: white !important;
+  border-bottom-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .custom-btn {
@@ -70,4 +88,9 @@ tbody tr {
 
 .custom-btn:hover {
   border-color: #31ff9f;
+}
+
+mat-icon {
+  color: black !important;
+  text-shadow: 0.2px 0px 4px #91ffff !important;
 }
