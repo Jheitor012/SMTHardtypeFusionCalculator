@@ -4,6 +4,8 @@ Project created with the purpose of beign a fusion calculator tool for Shin Mega
 
 The Hardtype patch was created by Zombero, check out the patch here: https://www.romhacking.net/hacks/3299/
 
-Shin Megami Tensei Nocturne is a property of Atlus
+Shin Megami Tensei Nocturne is a property of Atlus.
 
-This is a fan project, not affiliated with either Atlus or Sega
+This is a fan project, not affiliated with either Atlus or Sega.
+
+The project is still in development, not everything is implemented yet.
