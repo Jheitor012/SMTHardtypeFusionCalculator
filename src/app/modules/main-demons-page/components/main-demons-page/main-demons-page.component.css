@@ -4,6 +4,6 @@
 }
 
 .table-wrap {
-  max-height: 65vh;
+  max-height: 60vh;
   overflow: auto;
 }

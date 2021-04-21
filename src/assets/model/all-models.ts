@@ -1,20 +1,30 @@
 export class DemonsModel {
   id: number;
   race: string;
-  // lvl: number;
+  lvl: number;
   name: string;
-  // baseHP: number;
-  // baseMP: number;
-  // baseSt: number;
-  // baseMa: number;
-  // baseVi: number;
-  // baseAg: number;
-  // baseLu: number;
-  // isBoss: boolean;
-  // isBroker: boolean;
-  // isEvolved: boolean;
-  resistances?: ResistancesModel;
+  hp: number;
+  mp: number;
+  st: number;
+  ma: number;
+  vi: number;
+  ag: number;
+  lu: number;
+  isBoss?: boolean;
+  isBroker?: boolean;
+  evolvesTo?: DemonsModel;
+  evolvedFrom?: DemonsModel;
   // skills: SkillModel[];
+  physRes: string;
+  fireRes: string;
+  iceRes: string;
+  elecRes: string;
+  forceRes: string;
+  curseRes: string;
+  mindRes: string;
+  nerveRes: string;
+  expelRes: string;
+  deathRes: string;
 }
 
 export class MagatamaModel {
@@ -28,6 +38,16 @@ export class MagatamaModel {
   baseVi: number;
   baseAg: number;
   baseLu: number;
+  phys: string;
+  fire: string;
+  ice: string;
+  elec: string;
+  force: string;
+  curse: string;
+  mind: string;
+  nerve: string;
+  expel: string;
+  death: string;
 }
 
 export class ResistancesModel {

@@ -31,6 +31,7 @@ export class DetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute, private service: DemonsService) {}
 
   ngOnInit(): void {
+    // tslint:disable-next-line: deprecation
     this.route.url.subscribe((resp) => {
       resp.map((x) => {
         if (x.path === 'Demons') {
@@ -50,6 +51,7 @@ export class DetailsComponent implements OnInit {
   getDemonById(): void {
     this.demonId = this.route.snapshot.params.id;
     const demonId = Number(this.demonId);
+    // tslint:disable-next-line: deprecation
     this.service.getDemons().subscribe((resp) => {
       this.demonModel = resp.find((x) => x.id === demonId);
       this.name = this.demonModel.name;
@@ -60,6 +62,7 @@ export class DetailsComponent implements OnInit {
   getMagatamaById(): void {
     this.magatamaId = this.route.snapshot.params.id;
     const magatamaId = Number(this.magatamaId);
+    // tslint:disable-next-line: deprecation
     this.service.getMagatama().subscribe((resp) => {
       this.magatamaModel = resp.find((x) => x.id === magatamaId);
       this.name = this.magatamaModel.name;

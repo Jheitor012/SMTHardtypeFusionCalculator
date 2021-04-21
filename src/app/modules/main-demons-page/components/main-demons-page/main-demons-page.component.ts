@@ -7,18 +7,40 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 
 const ELEMENT_DATA_MAGATAMA: MagatamaModel[] = [];
+const ELEMENT_DATA_DEMONS: DemonsModel[] = [];
 @Component({
   selector: 'app-main-demons-page',
   templateUrl: './main-demons-page.component.html',
   styleUrls: ['./main-demons-page.component.css'],
 })
 export class MainDemonsPageComponent implements OnInit {
-  demonsArray: DemonsModel[];
+  // demonsArray: DemonsModel[];
   // magatamaArray: MagatamaModel[];
   magatamaArray = new MatTableDataSource(ELEMENT_DATA_MAGATAMA);
+  demonsArray = new MatTableDataSource(ELEMENT_DATA_DEMONS);
 
-  columnsDisplayDemons = ['race', 'name'];
-  // 'phys';
+  columnsDisplayDemons = [
+    'race',
+    'lvl',
+    'name',
+    'hp',
+    'mp',
+    'st',
+    'ma',
+    'vi',
+    'ag',
+    'lu',
+    'physRes',
+    'fireRes',
+    'iceRes',
+    'elecRes',
+    'forceRes',
+    'curseRes',
+    'nerveRes',
+    'mindRes',
+    'expelRes',
+    'deathRes',
+  ];
   columnsDisplayMagatamas = [
     'name',
     'baseSt',
@@ -42,8 +64,9 @@ export class MainDemonsPageComponent implements OnInit {
   @ViewChild(MatSort) sort: MatSort;
   ngOnInit(): void {
     this.getDemons();
-
-    this.getMagatamas();
+    setTimeout(() => {
+      this.getMagatamas();
+    }, 0);
   }
 
   navigateToDetailDemons(id): void {
@@ -55,12 +78,19 @@ export class MainDemonsPageComponent implements OnInit {
   }
 
   getDemons(): void {
+    // tslint:disable-next-line: deprecation
     this.demonsService.getDemons().subscribe((resp) => {
-      this.demonsArray = resp;
+      if (ELEMENT_DATA_DEMONS.length <= 0) {
+        resp.forEach((x) => {
+          ELEMENT_DATA_DEMONS.push(x);
+        });
+      }
+      this.demonsArray.sort = this.sort;
     });
   }
 
   getMagatamas(): void {
+    // tslint:disable-next-line: deprecation
     this.demonsService.getMagatama().subscribe((resp) => {
       resp.forEach((x) => {
         ELEMENT_DATA_MAGATAMA.push(x);
