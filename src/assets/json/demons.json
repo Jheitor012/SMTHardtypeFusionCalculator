@@ -152,14 +152,14 @@
             "lu": "15",
             "physRes": "-",
             "fireRes": "-",
-            "iceRes": "-",
+            "iceRes": "Rs",
             "elecRes": "Wk",
             "forceRes": "Nu",
             "curseRes": "Nu",
             "nerveRes": "-",
             "mindRes": "-",
-            "expelRes": "-",
-            "deathRes": "Nu"
+            "expelRes": "Nu",
+            "deathRes": "-"
         },
         {
             "id": "8",
@@ -178,11 +178,11 @@
             "iceRes": "-",
             "elecRes": "-",
             "forceRes": "Wk",
-            "curseRes": "Rpl",
-            "nerveRes": "-",
+            "curseRes": "Nu",
+            "nerveRes": "Nu",
             "mindRes": "Nu",
-            "expelRes": "Nu",
-            "deathRes": "Nu"
+            "expelRes": "Rpl",
+            "deathRes": "-"
         },
         {
             "id": "9",
@@ -270,11 +270,11 @@
             "iceRes": "Rs",
             "elecRes": "Rs",
             "forceRes": "Rs",
-            "curseRes": "Nu",
-            "nerveRes": "Nu",
+            "curseRes": "Rs",
+            "nerveRes": "Rs",
             "mindRes": "Rs",
-            "expelRes": "Rs",
-            "deathRes": "Rs"
+            "expelRes": "Nu",
+            "deathRes": "Nu"
         },
         {
             "id": "13",
@@ -472,16 +472,16 @@
             "vi": "26",
             "ag": "12",
             "lu": "17",
-            "physRes": "-",
+            "physRes": "Rs",
             "fireRes": "-",
             "iceRes": "-",
             "elecRes": "Dr",
             "forceRes": "-",
-            "curseRes": "Nu",
-            "nerveRes": "-",
+            "curseRes": "Wk",
+            "nerveRes": "Wk",
             "mindRes": "-",
-            "expelRes": "Wk",
-            "deathRes": "Wk",
+            "expelRes": "Nu",
+            "deathRes": "Nu",
 						"isBoss": true
         },
         {
@@ -2454,10 +2454,10 @@
             "elecRes": "-",
             "forceRes": "-",
             "curseRes": "-",
-            "nerveRes": "Nu",
+            "nerveRes": "-",
             "mindRes": "-",
             "expelRes": "-",
-            "deathRes": "-",
+            "deathRes": "Nu",
 						"isBoss": true
         },
         {
@@ -3452,10 +3452,10 @@
             "iceRes": "Nu",
             "elecRes": "Nu",
             "forceRes": "Nu",
-            "curseRes": "Rpl",
+            "curseRes": "-",
             "nerveRes": "-",
             "mindRes": "-",
-            "expelRes": "-",
+            "expelRes": "Rpl",
             "deathRes": "-"
         },
         {
@@ -4039,10 +4039,10 @@
             "elecRes": "-",
             "forceRes": "-",
             "curseRes": "Nu",
-            "nerveRes": "Rpl",
-            "mindRes": "Dr",
-            "expelRes": "Nu",
-            "deathRes": "Dr",
+            "nerveRes": "-",
+            "mindRes": "Nu",
+            "expelRes": "Rpl",
+            "deathRes": "-",
 						"isBoss": true
         },
         {
@@ -4062,11 +4062,11 @@
             "iceRes": "-",
             "elecRes": "-",
             "forceRes": "Nu",
-            "curseRes": "Nu",
-            "nerveRes": "Nu",
-            "mindRes": "Nu",
+            "curseRes": "-",
+            "nerveRes": "-",
+            "mindRes": "-",
             "expelRes": "Nu",
-            "deathRes": "Nu",
+            "deathRes": "-",
 						"isBoss": true
         },
         {
@@ -4201,11 +4201,11 @@
             "iceRes": "-",
             "elecRes": "-",
             "forceRes": "-",
-            "curseRes": "Nu",
-            "nerveRes": "Nu",
-            "mindRes": "Nu",
-            "expelRes": "Nu",
-            "deathRes": "Nu"
+            "curseRes": "Rs",
+            "nerveRes": "Rs",
+            "mindRes": "Rs",
+            "expelRes": "Rs",
+            "deathRes": "Rs"
         },
         {
             "id": "182",
