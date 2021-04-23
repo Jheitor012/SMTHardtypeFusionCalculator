@@ -50,10 +50,9 @@ export class DetailsComponent implements OnInit {
 
   getDemonById(): void {
     this.demonId = this.route.snapshot.params.id;
-    const demonId = Number(this.demonId);
     // tslint:disable-next-line: deprecation
     this.service.getDemons().subscribe((resp) => {
-      this.demonModel = resp.find((x) => x.id === demonId);
+      this.demonModel = resp.find((x) => x.id === this.demonId);
       this.name = this.demonModel.name;
       this.race = this.demonModel.race;
     });

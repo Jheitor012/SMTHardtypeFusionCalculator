@@ -1,11 +1,14 @@
 <div class="container">
   <mat-card>
     <mat-card-header>
-      <mat-card-title>{{name}}</mat-card-title>
-      <mat-card-subtitle *ngIf="this.isMagatama">Magatama</mat-card-subtitle>
-      <mat-card-subtitle *ngIf="!this.isMagatama">{{race}}</mat-card-subtitle>
+      <div class="mat-card-avatar back" *ngIf="isDemon">
+      </div>
+      <div>
+        <mat-card-title>{{name}}</mat-card-title>
+        <mat-card-subtitle *ngIf="this.isMagatama">Magatama</mat-card-subtitle>
+        <mat-card-subtitle *ngIf="!this.isMagatama">{{race}}</mat-card-subtitle>
+      </div>
     </mat-card-header>
-    <img *ngIf="isDemon" mat-card-image src="../../../../../assets/img/daisoujou_teste.png" class="demon-img">
     <mat-card-content>
       <mat-grid-list cols="2" rowHeight="50px">
         <!-- <mat-grid-tile *ngFor="let item of skillsModel" [colspan]="1" [rowspan]="1" (mouseover)="getSkillDesc(item.id)"

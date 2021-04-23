@@ -4,7 +4,7 @@
     <mat-tab-group mat-align-tabs="center" [color]="'white'" [backgroundColor]="'transparent'">
       <mat-tab label="List of Demons">
         <div class="table-wrap">
-          <table mat-table [dataSource]="demonsArray" matSort matSortActive="created">
+          <table mat-table [dataSource]="demonsArray" matSort>
             <ng-container matColumnDef="race">
               <th mat-header-cell *matHeaderCellDef mat-sort-header>Race</th>
               <td mat-cell *matCellDef="let demonsArray">{{demonsArray.race}}</td>

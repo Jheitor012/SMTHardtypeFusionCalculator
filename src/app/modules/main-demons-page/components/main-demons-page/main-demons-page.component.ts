@@ -62,6 +62,7 @@ export class MainDemonsPageComponent implements OnInit {
 
   constructor(private demonsService: DemonsService, private route: Router) {}
   @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatSort) sort2: MatSort;
   ngOnInit(): void {
     this.getDemons();
     setTimeout(() => {
@@ -95,7 +96,7 @@ export class MainDemonsPageComponent implements OnInit {
       resp.forEach((x) => {
         ELEMENT_DATA_MAGATAMA.push(x);
       });
-      this.magatamaArray.sort = this.sort;
+      this.magatamaArray.sort = this.sort2;
     });
   }
 }

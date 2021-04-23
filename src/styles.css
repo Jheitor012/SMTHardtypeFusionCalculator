@@ -64,6 +64,11 @@ tbody td {
   border-bottom-color: rgba(255, 255, 255, 0.12) !important;
 }
 
+.back {
+  background-image: url('./assets/img/daisoujou_face.png');
+  background-size: 40px 40px;
+}
+
 .custom-btn {
   border: 5px solid #181920;
   width: 90%;
