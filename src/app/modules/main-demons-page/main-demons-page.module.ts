@@ -3,22 +3,9 @@ import { MainDemonsPageComponent } from './components/main-demons-page/main-demo
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainDemonsPageRoutingModule } from './main-demons-page-routing.module';
-import { MatButtonModule } from '@angular/material/button';
-import { MatTableModule } from '@angular/material/table';
-import { MatTabsModule } from '@angular/material/tabs';
-import { MatRippleModule } from '@angular/material/core';
-import { MatSortModule } from '@angular/material/sort';
-
-const comp = [
-  MatButtonModule,
-  MatTableModule,
-  MatTabsModule,
-  MatRippleModule,
-  MatSortModule,
-];
 
 @NgModule({
   declarations: [MainDemonsPageComponent],
-  imports: [CommonModule, MainDemonsPageRoutingModule, comp, SharedModule],
+  imports: [CommonModule, MainDemonsPageRoutingModule, SharedModule],
 })
 export class MainDemonsPageModule {}

@@ -14,10 +14,10 @@ const ELEMENT_DATA_DEMONS: DemonsModel[] = [];
   styleUrls: ['./main-demons-page.component.css'],
 })
 export class MainDemonsPageComponent implements OnInit {
-  // demonsArray: DemonsModel[];
+  demonsArray: DemonsModel[];
   // magatamaArray: MagatamaModel[];
   magatamaArray = new MatTableDataSource(ELEMENT_DATA_MAGATAMA);
-  demonsArray = new MatTableDataSource(ELEMENT_DATA_DEMONS);
+  // demonsArray = new MatTableDataSource(ELEMENT_DATA_DEMONS);
 
   columnsDisplayDemons = [
     'race',
@@ -81,12 +81,13 @@ export class MainDemonsPageComponent implements OnInit {
   getDemons(): void {
     // tslint:disable-next-line: deprecation
     this.demonsService.getDemons().subscribe((resp) => {
-      if (ELEMENT_DATA_DEMONS.length <= 0) {
-        resp.forEach((x) => {
-          ELEMENT_DATA_DEMONS.push(x);
-        });
-      }
-      this.demonsArray.sort = this.sort;
+      this.demonsArray = resp;
+      // if (ELEMENT_DATA_DEMONS.length <= 0) {
+      //   resp.forEach((x) => {
+      //     ELEMENT_DATA_DEMONS.push(x);
+      //   });
+      // }
+      // this.demonsArray.sort = this.sort;
     });
   }
 

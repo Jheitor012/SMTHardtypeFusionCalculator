@@ -7,3 +7,28 @@
   max-height: 60vh;
   overflow: auto;
 }
+
+.listage-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgb(136, 134, 120);
+  background: rgb(25,39,112);
+  background: radial-gradient(circle, rgba(25,39,112,0.7) 0%, rgba(25,39,112,0.6488970588235294) 0%, rgba(1,11,56,0.6) 100%);
+}
